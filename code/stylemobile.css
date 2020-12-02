@@ -1,11 +1,12 @@
 .page{
     width: 375px;
+    padding: 0;
 }
 header{
     width: auto;
 }
 .menu{
-    width: 100px;
+    width: 70%;
 }
 .input{
     margin-bottom: 20px;
@@ -21,7 +22,7 @@ header{
     margin-bottom: 15px;
     padding-left: 20px;
 }
-.container{
+.box, .box_middle{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -39,9 +40,9 @@ header{
 .heber{
     height: 120px;
 }
-.box_activite_full{
-    padding-left: 20px;
-    padding-right: 20px;
+.activite_1, .activite_2, .activite_2_end{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .pic_size_1{
     height: 135px;
@@ -51,4 +52,7 @@ header{
 }
 .desc_act{
     height: 30px;
+}
+.footer_div{
+    align-self: start;
 }
