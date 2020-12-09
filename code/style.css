@@ -16,11 +16,11 @@ a{
 .infoicone{
     color: #0065FC;
     border: 1px solid #f2f2f2;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 7px;
-    padding-left: 7px;
-    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
 }
 .shadow{
     box-shadow: 1px 7px 15px #1f1f1f2a;
@@ -60,7 +60,7 @@ a{
 }
 body{
     font-family: 'raleway';
-    font-size: 12px;
+    font-size: 16px;
     margin: 0px;
 }
 strong{
@@ -102,8 +102,7 @@ button{
     margin: auto;
 }
 /*TOP*/
-}
-li:hover{
+.navclass:hover{
     border-top: solid 2px #0065FC;
 }
 li{
@@ -209,7 +208,7 @@ li a{
 
 /* LES PLUS POPULAIRES */
 .pop_text{
-    font-size: 13px;
+    font-size: 15px;
     margin-right: 30px;
     line-height: 19px;
 }
@@ -278,7 +277,7 @@ li a{
     border-right: 2px solid #d9d9d9;
     border-top: 2px solid #d9d9d9;
     border-bottom: 2px solid #d9d9d9;
-    height: 30px;
+    height: 40px;
     display: flex;
     align-items: center;
     border-radius: 30px;
@@ -286,9 +285,9 @@ li a{
 }
 .icone_filtre{
     background-color: #DEEBFF;
-    height: 34px;
-    width: 34px;
-    border-radius: 15px;
+    height: 44px;
+    width: 44px;
+    border-radius: 30px;
     align-items: center;
     justify-content: center; 
     display: flex; 

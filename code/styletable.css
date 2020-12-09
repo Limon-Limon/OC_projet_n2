@@ -32,7 +32,7 @@ li{
 .nav{
     display: flex;
     justify-content: space-between;
-    height: auto;
+    height: 80px;
 }
 .menu{
     width: 70%;
@@ -43,8 +43,12 @@ li{
 header{
     max-width: 570px;
     min-width: 353px;
-    width: auto
+    width: auto;
+    height: auto;
 }  
+.navclass{
+    padding-left: 10px;
+}
     /*TABLEAU 1*/
 .skull{
     display: flex;
@@ -187,6 +191,7 @@ header{
     height: auto;
     flex-direction: column;
     width: 100%;
+    align-items: baseline;
 }
 .footer_div{ 
     margin-left: 20px;

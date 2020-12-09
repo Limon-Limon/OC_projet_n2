@@ -4,6 +4,10 @@
 }
 header{
     width: auto;
+    height: 150px;
+}
+.logo{
+    margin-left: 20px;
 }
 .menu{
     width: 70%;
@@ -55,4 +59,25 @@ header{
 }
 .footer_div{
     align-self: start;
+    padding: 0px;
+}
+.navclass.n-hebergements, .navclass.n-activites{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 2px #f2f2f2 solid;
+}
+.nav{
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+.navclass.n-sinscrire{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+.menu {
+    width: 100%;
 }
