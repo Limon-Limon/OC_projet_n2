@@ -15,6 +15,12 @@ header{
 .input{
     margin-bottom: 20px;
 }
+.search{ 
+    display: none;
+}
+.icone-search{
+    display: block;
+}
 .box_filtres{
     margin: 0px;
 }

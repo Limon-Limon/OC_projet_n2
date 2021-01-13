@@ -50,7 +50,7 @@ header{
     padding-left: 10px;
 }
     /*TABLEAU 1*/
-.skull{
+.ftable{
     display: flex;
     justify-content: flex-end;
     flex-direction: column-reverse;

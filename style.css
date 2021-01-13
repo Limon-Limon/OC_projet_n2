@@ -6,6 +6,9 @@ src: url(police/Raleway/static/Raleway-SemiBold.ttf)
 font-family: 'raleway_bold';
 src: url(police/Raleway/static/Raleway-ExtraBold.ttf)
 }
+.icone-search{
+    display: none;
+}
 a{ 
  text-decoration: none; 
  color: black
@@ -138,7 +141,7 @@ li a{
     align-items: center;
 }
 /*TABLEAU 1*/
-.skull{
+.ftable{
     display: flex;
     height: auto;
     width: 1;
@@ -317,7 +320,7 @@ li a{
 }
 .pic_size_1{
     width: 250px;
-    height: 467px;
+    height: 454px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
