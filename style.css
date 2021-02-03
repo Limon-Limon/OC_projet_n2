@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
 font-family: 'raleway';
 src: url(police/Raleway/static/Raleway-SemiBold.ttf)
 }
@@ -144,7 +144,6 @@ li a{
 .ftable{
     display: flex;
     height: auto;
-    width: 1;
     justify-content: space-between;
     margin-bottom: 30px;
     padding-left: 20px;
@@ -336,7 +335,7 @@ li a{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    width: 1;
+    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -344,8 +343,6 @@ li a{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    width: 1;
-    min-height: 1;
     margin-left: 20px;
     border-radius: 15px;
 }
@@ -369,15 +366,12 @@ li a{
 .activite_1{
    display: flex;
    flex-direction: column;
-   width: 1;
-   height: 1;
    width: 250px;
    border-radius: 15px;
    margin-left: 20px;
 }
 .box_activite_full{
     display: flex;
-    height: 1;
 }
 /*FOOTER*/
 footer{

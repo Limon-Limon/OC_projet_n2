@@ -149,7 +149,7 @@ header{
     }
 .pic_size_1{
     width: 100%;
-    height: auto;
+    max-height: 350px;
 }
 .activite_image_2{
     width: 100%;
